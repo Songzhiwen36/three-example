@@ -58,6 +58,14 @@ const router = createRouter({
             }
         },
         {
+            path: '/case7',
+            name: 'webgl-mirror',
+            component: () => import('@/views/WebglMirror.vue'),
+            meta: {
+                title: 'webgl-mirror'
+            }
+        },
+        {
             path: '/test',
             name: 'test',
             component: () => import('@/views/CursorTest.vue'),

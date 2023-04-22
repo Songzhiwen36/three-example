@@ -8,7 +8,6 @@ import { useRoute } from 'vue-router'
 import { onMounted, ref } from 'vue'
 import Stats from 'three/examples/jsm/libs/stats.module'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
-import { render } from 'ejs'
 
 const route = useRoute()
 document.title = route.meta.title
